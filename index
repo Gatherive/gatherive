@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Top-notch digital marketing agency offering SEO, PPC, Social Media, and Content Marketing services.">
+    <title>Digital Marketing Agency</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #f8f9fa;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #1e3c72;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?technology,marketing') no-repeat center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+        .services, .about, .contact {
+            background: white;
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .services h2, .about h2, .contact h2 {
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .services li {
+            background: #1e3c72;
+            color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 18px;
+            flex: 1 1 300px;
+        }
+        .contact a {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #ff9800;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .contact a:hover {
+            background: #e68900;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e3c72;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>MarketingPro</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <div class="hero">
+        <h1>Grow Your Business with Our Digital Marketing Strategies</h1>
+        <p>We drive measurable results with cutting-edge techniques.</p>
+    </div>
+    <div class="section about" id="about">
+        <h2>About Us</h2>
+        <p>We are a leading digital marketing agency, dedicated to helping brands maximize their online presence.</p>
+    </div>
+    <div class="section services" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>SEO Optimization</li>
+            <li>Pay-Per-Click (PPC) Advertising</li>
+            <li>Social Media Management</li>
+            <li>Content Marketing</li>
+            <li>Email Marketing</li>
+        </ul>
+    </div>
+    <div class="section contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Let’s collaborate to take your business to the next level.</p>
+        <a href="#">Get in Touch</a>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 MarketingPro. All rights reserved.</p>
+    </footer>
+</body>
+</html>
