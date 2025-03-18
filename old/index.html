@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        @font-face {
+            font-family: 'Halimun';
+            src: url('fonts/Halimun.woff2') format('woff2'),
+                 url('fonts/Halimun.woff') format('woff'),
+                 url('fonts/Halimun.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+
+        .title {
+            font-family: 'Halimun', cursive;
+            font-size: 32px;
+            color: #ffffff;
+            margin-bottom: 30px;
+        }
+
+        .loader-container {
+            width: 300px;
+            height: 10px;
+            border: 2px solid #494949;
+            overflow: hidden;
+            position: relative;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        .loader-bar {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(to right, #ffffff, #3b3b3b);
+            position: absolute;
+            animation: fill 4s forwards linear;
+        }
+
+        @keyframes fill {
+            0% { width: 0%; }
+            100% { width: 100%; }
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            window.location.href = "1st.html";
+        }, 5000); // Redirect after 5 seconds
+    </script>
+</head>
+<body>
+    <div class="title">Gatherive</div>
+    <div class="loader-container">
+        <div class="loader-bar"></div>
+    </div>
+</body>
+</html>
